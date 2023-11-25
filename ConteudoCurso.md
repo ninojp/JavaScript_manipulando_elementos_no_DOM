@@ -130,3 +130,31 @@ Configurar áudio para loop: Fizemos com que o áudio fique em loop contínuo ao
 ## Aula 04 - Desenvolvendo o Temporizador
 
 ### Aula 04 - Iniciando o temporizador (setInterval) - Video 1
+
+Nesta aula, o instrutor ensina como implementar um temporizador no projeto Fokus. Ele explica como declarar a variável "tempoDecorridoEmSegundos" e criar uma função de contagem regressiva. Também mostra como referenciar o botão "Começar" no código HTML e criar um evento de clique para chamar a função de contagem regressiva. Além disso, o instrutor demonstra como automatizar o temporizador usando o método setInterval() e associa a função de inicialização à função de contagem regressiva. Por fim, destaca a importância de interromper a execução do temporizador para evitar o consumo excessivo de recursos da máquina.
+
+### Aula 04 - Pausando o temporizador clearInterval - Video 2
+
+Nesta aula, o instrutor ensina como pausar o temporizador utilizando a função clearInterval(). Ele também mostra como implementar essa funcionalidade no código, adicionando um bloco condicional na função contagemRegressiva para verificar se o tempo decorrido é menor ou igual a zero. Caso seja verdadeiro, ele exibe um alerta informando que o tempo foi finalizado e utiliza o return para interromper a execução do código. Além disso, o instrutor cria a função zerar() para utilizar o clearInterval() e interromper a execução do temporizador. Ele também sugere melhorias adicionais, como adicionar sons de notificação ao iniciar, pausar e finalizar o temporizador.
+
+### Aula 04 - Para saber mais: acessando dados com propriedades no DOM
+
+- Propriedade parentNode
+A propriedade parentNode é utilizada para acessar o nó pai de um elemento no DOM. Por meio dela, podemos navegar pela árvore do DOM em direção ao nó pai do elemento atual.  
+- Propriedade childNodes
+A propriedade childNodes é utilizada para acessar todos os nós filhos de um elemento no DOM. Ela retorna uma lista de nós, incluindo nós de texto e elementos HTML.  
+- Propriedade nextElementSibling
+A propriedade nextElementSibling permite acessar o próximo irmão (nó adjacente) de um elemento no DOM.  
+- Propriedade previousElementSibling
+A propriedade previousElementSibling é semelhante ao nextElementSibling, mas permite acessar o irmão anterior (nó adjacente) de um elemento no DOM.
+
+### Aula 04 Conclusão - E nela você aprendeu como
+
+Utilizar o SetInterval: Compreendemos o papel do método setInterval na execução contínua de trechos de código;
+Utilizar o ClearInterval: Aprendemos como utilizar o método clearInterval para interromper a execução do código;
+Concatenar strings e variáveis: Utilizamos o operador + para juntar strings e variáveis.
+
+## Aula 05 - Finalizando o Projeto
+
+### Aula 05 - Alternando texto com textContent - Video 1
+
