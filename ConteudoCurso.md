@@ -158,3 +158,49 @@ Concatenar strings e variáveis: Utilizamos o operador + para juntar strings e v
 
 ### Aula 05 - Alternando texto com textContent - Video 1
 
+Nesta aula, o instrutor finaliza o projeto Fokus e mostra o resultado do desafio proposto no vídeo anterior. Ele adiciona áudios em determinados momentos do projeto, como quando o botão "Começar" é pressionado e quando o temporizador termina. O instrutor faz correções no código, como comentar uma linha de código que aciona o áudio quando o temporizador termina e corrigir a lógica de redefinição do temporizador. Ele também mostra como alterar o texto do botão de "Começar" para "Pausar" usando o método textContent. Por fim, ele menciona que seria interessante também alternar a imagem do botão entre "play_arrow.png" e "pause.png" quando o temporizador é iniciado e pausado.
+
+### Aula 05 - Printando tempo na tela - Video 2
+
+Nesta aula, o instrutor finaliza o projeto discutindo a implementação do temporizador. Ele mostra como exibir o tempo na tela utilizando o método innerHTML e cria a função "mostrarTempo()" para realizar essa tarefa. Além disso, o instrutor chama a função "mostrarTempo()" durante a contagem regressiva e no escopo global para que o tempo seja sempre exibido. Ele menciona que no próximo vídeo irá ajustar o formato do tempo para aparecer no formato "25:00".
+
+### Aula 05 - Formatando tempo com objeto Date - Video 3
+
+Nesta aula, o instrutor aborda a formatação do tempo no projeto Fokus utilizando JavaScript. Ele mostra como utilizar o objeto "Date" para formatar o tempo e como ajustar os valores dos temporizadores de acordo com o contexto. Além disso, ele menciona a necessidade de descomentar o código para reproduzir um áudio quando o tempo é finalizado. No final, o projeto Fokus é concluído.
+
+### Aula 05 - Para saber mais: Objeto Date
+
+Nesta aula, aprendemos como utilizar o [objeto Date](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date) para formatar minutos e segundos. Entretanto, é possível utilizar suas propriedades e métodos para mais funcionalidades, como manipular e exibir datas e horas no seu código.
+
+- Construtor sem argumentos: const dataAtual = new Date();
+- Construtor com argumentos (ano, mês, dia, hora, minuto, segundo, milissegundo): const dataEspecifica = new Date(2023, 7, 3, 12, 30, 0, 0);
+- Construtor com uma string que representa a data (formato padrão é "yyyy-mm-dd"):  
+const dateString = "2023-08-03";  
+const formatoDeData = new Date(dateString);  
+- Uma vez criado um objeto Date, você pode acessar informações específicas da data e hora, como o ano, mês, dia, hora, minuto e segundo usando os métodos de acesso do objeto:
+const currentDate = new Date();
+const ano = currentDate.getFullYear();  // Acessa o ano
+const mês = currentDate.getMonth(); // Acessa o mês - Janeiro é 0, Fevereiro é 1, ..., Dezembro é 11
+const dia = currentDate.getDate(); // Acessa o dia
+const horas = currentDate.getHours(); // Acessa as horas 
+const minutos = currentDate.getMinutes(); // Acessa os minutos
+const segundos = currentDate.getSeconds(); // Acessa os segundos
+const milissegundos = currentDate.getMilliseconds();  // Acessa os milissegundos
+- Você também pode modificar a data e hora usando os métodos de definição:
+const data = new Date();
+data.setFullYear(2024);  // Define o ano
+data.setMonth(10); // Define o mês
+data.setDate(25); // Define o dia
+data.setHours(10);  // Define as horas
+data.setMinutes(30); // Define os minutos
+data.setSeconds(0); // Define os segundos
+
+### Aula 05 Conclusão - Vamos relembrar o que aprendemos?
+
+Implementar objeto Date: Entendemos como implementar o objeto Date do JavaScript no projeto Fokus para formatar minutos e segundos;
+Configurar diferentes temporizadores: Configuramos o temporizador para três contextos diferentes: foco, descanso curto e descanso longo;
+Inserir temporizador na tela: Criamos a função “mostrarTempo()” e utilizamos o método innerHTML para mostrar o temporizador na tela.
+
+### Aula 05 - Conclusão - Video 4
+
+Nesta aula, o instrutor conclui o curso e apresenta o projeto Fokus, que utiliza métodos do JavaScript para manipulação de elementos no DOM. São utilizados os métodos InnerHTML, setAttribute, classList, querySelector e EventList para alterar textos, caminhos de imagens, classes e estilos dos botões, selecionar elementos e escutar interações com a página. O instrutor destaca a importância desses métodos e incentiva os alunos a compartilharem o projeto no LinkedIn com a hashtag #AprendiNaAlura. Ele também menciona a disponibilidade de um servidor no Discord para tirar dúvidas e trocar informações. O instrutor encerra desejando que os alunos tenham aprendido muito e se encontrem no próximo curso.
